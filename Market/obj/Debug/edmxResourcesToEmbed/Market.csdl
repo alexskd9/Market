@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MarketModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Group">
+    <Key>
+      <PropertyRef Name="gid" />
+    </Key>
+    <Property Name="gid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="gname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Products" Relationship="Self.FK_Products_Groups" FromRole="Groups" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="MUnit">
+    <Key>
+      <PropertyRef Name="mucode" />
+    </Key>
+    <Property Name="mucode" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="muname" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Products" Relationship="Self.FK_Products_MUnits" FromRole="MUnits" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="mid" />
+    </Key>
+    <Property Name="mid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="mname" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="mgroup" Type="Int32" Nullable="false" />
+    <Property Name="munit" Type="Int32" Nullable="false" />
+    <Property Name="mprice" Type="Decimal" Precision="10" Scale="4" Nullable="false" />
+    <Property Name="mbarcode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Group" Relationship="Self.FK_Products_Groups" FromRole="Products" ToRole="Groups" />
+    <NavigationProperty Name="MUnit1" Relationship="Self.FK_Products_MUnits" FromRole="Products" ToRole="MUnits" />
+    <NavigationProperty Name="Purchases" Relationship="Self.FK_Purchases_Products" FromRole="Products" ToRole="Purchases" />
+    <NavigationProperty Name="Sales" Relationship="Self.FK_Sales_Products" FromRole="Products" ToRole="Sales" />
+  </EntityType>
+  <EntityType Name="Purchase">
+    <Key>
+      <PropertyRef Name="pid" />
+    </Key>
+    <Property Name="pid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="pdate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="pdocnum" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="mcode" Type="Int32" Nullable="false" />
+    <Property Name="mqty" Type="Decimal" Precision="9" Scale="4" Nullable="false" />
+    <Property Name="mpprice" Type="Decimal" Precision="10" Scale="4" Nullable="false" />
+    <Property Name="mpsum" Type="Decimal" Precision="10" Scale="4" Nullable="false" />
+    <NavigationProperty Name="Product" Relationship="Self.FK_Purchases_Products" FromRole="Purchases" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="Sale">
+    <Key>
+      <PropertyRef Name="sid" />
+    </Key>
+    <Property Name="sid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sdate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="sdocnum" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="mcode" Type="Int32" Nullable="false" />
+    <Property Name="mqty" Type="Decimal" Precision="9" Scale="4" Nullable="false" />
+    <Property Name="mprice" Type="Decimal" Precision="10" Scale="4" Nullable="false" />
+    <Property Name="ssum" Type="Decimal" Precision="10" Scale="4" Nullable="false" />
+    <NavigationProperty Name="Product" Relationship="Self.FK_Sales_Products" FromRole="Sales" ToRole="Products" />
+  </EntityType>
+  <Association Name="FK_Products_Groups">
+    <End Role="Groups" Type="Self.Group" Multiplicity="1" />
+    <End Role="Products" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Groups">
+        <PropertyRef Name="gid" />
+      </Principal>
+      <Dependent Role="Products">
+        <PropertyRef Name="mgroup" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_MUnits">
+    <End Role="MUnits" Type="Self.MUnit" Multiplicity="1" />
+    <End Role="Products" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MUnits">
+        <PropertyRef Name="mucode" />
+      </Principal>
+      <Dependent Role="Products">
+        <PropertyRef Name="munit" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Purchases_Products">
+    <End Role="Products" Type="Self.Product" Multiplicity="1" />
+    <End Role="Purchases" Type="Self.Purchase" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="mid" />
+      </Principal>
+      <Dependent Role="Purchases">
+        <PropertyRef Name="mcode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sales_Products">
+    <End Role="Products" Type="Self.Product" Multiplicity="1" />
+    <End Role="Sales" Type="Self.Sale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="mid" />
+      </Principal>
+      <Dependent Role="Sales">
+        <PropertyRef Name="mcode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MarketEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Groups" EntityType="Self.Group" />
+    <EntitySet Name="MUnits" EntityType="Self.MUnit" />
+    <EntitySet Name="Products" EntityType="Self.Product" />
+    <EntitySet Name="Purchases" EntityType="Self.Purchase" />
+    <EntitySet Name="Sales" EntityType="Self.Sale" />
+    <AssociationSet Name="FK_Products_Groups" Association="Self.FK_Products_Groups">
+      <End Role="Groups" EntitySet="Groups" />
+      <End Role="Products" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_MUnits" Association="Self.FK_Products_MUnits">
+      <End Role="MUnits" EntitySet="MUnits" />
+      <End Role="Products" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Purchases_Products" Association="Self.FK_Purchases_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="Purchases" EntitySet="Purchases" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sales_Products" Association="Self.FK_Sales_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="Sales" EntitySet="Sales" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MarketModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Group">
+    <Key>
+      <PropertyRef Name="gid" />
+    </Key>
+    <Property Name="gid" Type="Int32" Nullable="false" />
+    <Property Name="gname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Products" Relationship="Self.FK_Products_Groups" FromRole="Groups" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="MUnit">
+    <Key>
+      <PropertyRef Name="mucode" />
+    </Key>
+    <Property Name="mucode" Type="Int32" Nullable="false" />
+    <Property Name="muname" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Products" Relationship="Self.FK_Products_MUnits" FromRole="MUnits" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="mid" />
+    </Key>
+    <Property Name="mid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="mcode" Type="String" MaxLength="13" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="mname" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="mgroup" Type="Int32" Nullable="false" />
+    <Property Name="munit" Type="Int32" Nullable="false" />
+    <Property Name="mprice" Type="Decimal" Precision="10" Scale="4" Nullable="false" />
+    <NavigationProperty Name="Group" Relationship="Self.FK_Products_Groups" FromRole="Products" ToRole="Groups" />
+    <NavigationProperty Name="MUnit1" Relationship="Self.FK_Products_MUnits" FromRole="Products" ToRole="MUnits" />
+    <Property Name="mbarcode" Type="String" MaxLength="13" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Purchase">
+    <Key>
+      <PropertyRef Name="pid" />
+    </Key>
+    <Property Name="pid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="pdocnum" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="mcode" Type="String" MaxLength="13" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="mpprice" Type="Decimal" Precision="10" Scale="4" Nullable="false" />
+    <Property Name="mpsum" Type="Decimal" Precision="10" Scale="4" Nullable="false" />
+    <Property Name="mqty" Type="Decimal" Nullable="false" Precision="9" Scale="4" />
+    <Property Name="date" Type="DateTime" Nullable="false" Precision="0" />
+  </EntityType>
+  <EntityType Name="Sale">
+    <Key>
+      <PropertyRef Name="sid" />
+    </Key>
+    <Property Name="sid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sdocnum" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="mcode" Type="String" MaxLength="13" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="mprice" Type="Decimal" Precision="10" Scale="4" Nullable="false" />
+    <Property Name="ssum" Type="Decimal" Precision="10" Scale="4" Nullable="false" />
+    <Property Name="mqty" Type="Decimal" Nullable="false" Precision="9" Scale="4" />
+    <Property Name="sdate" Type="DateTime" Nullable="false" Precision="0" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_Products_Groups">
+    <End Role="Groups" Type="Self.Group" Multiplicity="1" />
+    <End Role="Products" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Groups">
+        <PropertyRef Name="gid" />
+      </Principal>
+      <Dependent Role="Products">
+        <PropertyRef Name="mgroup" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_MUnits">
+    <End Role="MUnits" Type="Self.MUnit" Multiplicity="1" />
+    <End Role="Products" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MUnits">
+        <PropertyRef Name="mucode" />
+      </Principal>
+      <Dependent Role="Products">
+        <PropertyRef Name="munit" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MarketEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Groups" EntityType="Self.Group" />
+    <EntitySet Name="MUnits" EntityType="Self.MUnit" />
+    <EntitySet Name="Products" EntityType="Self.Product" />
+    <EntitySet Name="Purchases" EntityType="Self.Purchase" />
+    <EntitySet Name="Sales" EntityType="Self.Sale" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <AssociationSet Name="FK_Products_Groups" Association="Self.FK_Products_Groups">
+      <End Role="Groups" EntitySet="Groups" />
+      <End Role="Products" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_MUnits" Association="Self.FK_Products_MUnits">
+      <End Role="MUnits" EntitySet="MUnits" />
+      <End Role="Products" EntitySet="Products" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

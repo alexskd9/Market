@@ -1,0 +1,202 @@
+C:\Users\aleksandr.ARMSOFT\Documents\Visual Studio 2017\Projects\Market\Market\bin\Debug\Market.exe.config
+C:\Users\aleksandr.ARMSOFT\Documents\Visual Studio 2017\Projects\Market\Market\bin\Debug\Market.exe
+C:\Users\aleksandr.ARMSOFT\Documents\Visual Studio 2017\Projects\Market\Market\bin\Debug\Market.pdb
+C:\Users\aleksandr.ARMSOFT\Documents\Visual Studio 2017\Projects\Market\Market\bin\Debug\EntityFramework.dll
+C:\Users\aleksandr.ARMSOFT\Documents\Visual Studio 2017\Projects\Market\Market\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\aleksandr.ARMSOFT\Documents\Visual Studio 2017\Projects\Market\Market\bin\Debug\EntityFramework.xml
+C:\Users\aleksandr.ARMSOFT\Documents\Visual Studio 2017\Projects\Market\Market\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\aleksandr.ARMSOFT\Documents\Visual Studio 2017\Projects\Market\Market\obj\Debug\Market.Properties.Resources.resources
+C:\Users\aleksandr.ARMSOFT\Documents\Visual Studio 2017\Projects\Market\Market\obj\Debug\Market.csproj.GenerateResource.cache
+C:\Users\aleksandr.ARMSOFT\Documents\Visual Studio 2017\Projects\Market\Market\obj\Debug\Market.csproj.CoreCompileInputs.cache
+C:\Users\aleksandr.ARMSOFT\Documents\Visual Studio 2017\Projects\Market\Market\obj\Debug\Market.csproj.CopyComplete
+C:\Users\aleksandr.ARMSOFT\Documents\Visual Studio 2017\Projects\Market\Market\obj\Debug\Market.exe
+C:\Users\aleksandr.ARMSOFT\Documents\Visual Studio 2017\Projects\Market\Market\obj\Debug\Market.pdb
+C:\Users\aleksandr.ARMSOFT\Documents\Visual Studio 2017\Projects\Market\Market\obj\Debug\Market.AddProduct.resources
+C:\Users\aleksandr.ARMSOFT\Documents\Visual Studio 2017\Projects\Market\Market\obj\Debug\Market.MainMenu.resources
+C:\Users\aleksandr.ARMSOFT\Documents\Visual Studio 2017\Projects\Market\Market\obj\Debug\Market.ProductsList.resources
+C:\Users\aleksandr.ARMSOFT\Documents\Visual Studio 2017\Projects\Market\Market\obj\Debug\Market.AddGroups.resources
+C:\Users\aleksandr.ARMSOFT\Documents\Visual Studio 2017\Projects\Market\Market\obj\Debug\Market.GroupList.resources
+C:\Users\aleksandr.ARMSOFT\Documents\Visual Studio 2017\Projects\Market\Market\obj\Debug\Market.PurchaseWindow.resources
+C:\Users\aleksandr.ARMSOFT\Documents\Visual Studio 2017\Projects\Market\Market\obj\Debug\Market.csprojAssemblyReference.cache
+C:\Users\aleksandr.ARMSOFT\Documents\Visual Studio 2017\Projects\Market\Market\obj\Debug\Market.SaleWindow.resources
+C:\Users\Alex\Desktop\Market\Market\bin\Debug\Market.exe.config
+C:\Users\Alex\Desktop\Market\Market\bin\Debug\Market.exe
+C:\Users\Alex\Desktop\Market\Market\bin\Debug\Market.pdb
+C:\Users\Alex\Desktop\Market\Market\bin\Debug\EntityFramework.dll
+C:\Users\Alex\Desktop\Market\Market\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alex\Desktop\Market\Market\bin\Debug\EntityFramework.xml
+C:\Users\Alex\Desktop\Market\Market\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alex\Desktop\Market\Market\obj\Debug\Market.csprojAssemblyReference.cache
+C:\Users\Alex\Desktop\Market\Market\obj\Debug\Market.GroupList.resources
+C:\Users\Alex\Desktop\Market\Market\obj\Debug\Market.MainMenu.resources
+C:\Users\Alex\Desktop\Market\Market\obj\Debug\Market.ProductsList.resources
+C:\Users\Alex\Desktop\Market\Market\obj\Debug\Market.Properties.Resources.resources
+C:\Users\Alex\Desktop\Market\Market\obj\Debug\Market.PurchaseWindow.resources
+C:\Users\Alex\Desktop\Market\Market\obj\Debug\Market.SaleWindow.resources
+C:\Users\Alex\Desktop\Market\Market\obj\Debug\Market.csproj.GenerateResource.cache
+C:\Users\Alex\Desktop\Market\Market\obj\Debug\Market.csproj.CopyComplete
+C:\Users\Alex\Desktop\Market\Market\obj\Debug\Market.exe
+C:\Users\Alex\Desktop\Market\Market\obj\Debug\Market.pdb
+C:\Users\Alex\Desktop\Market\Market\obj\Debug\Market.SoldProductsList.resources
+D:\Market\Market\bin\Debug\Market.exe.config
+D:\Market\Market\bin\Debug\Market.exe
+D:\Market\Market\bin\Debug\Market.pdb
+D:\Market\Market\bin\Debug\EntityFramework.dll
+D:\Market\Market\bin\Debug\EntityFramework.SqlServer.dll
+D:\Market\Market\bin\Debug\EntityFramework.xml
+D:\Market\Market\bin\Debug\EntityFramework.SqlServer.xml
+D:\Market\Market\obj\Debug\Market.csprojAssemblyReference.cache
+D:\Market\Market\obj\Debug\Market.AddGroups.resources
+D:\Market\Market\obj\Debug\Market.AddProduct.resources
+D:\Market\Market\obj\Debug\Market.GroupList.resources
+D:\Market\Market\obj\Debug\Market.MainMenu.resources
+D:\Market\Market\obj\Debug\Market.ProductsList.resources
+D:\Market\Market\obj\Debug\Market.Properties.Resources.resources
+D:\Market\Market\obj\Debug\Market.PurchaseWindow.resources
+D:\Market\Market\obj\Debug\Market.SaleWindow.resources
+D:\Market\Market\obj\Debug\Market.SoldProductsList.resources
+D:\Market\Market\obj\Debug\Market.csproj.GenerateResource.cache
+D:\Market\Market\obj\Debug\Market.csproj.CoreCompileInputs.cache
+D:\Market\Market\obj\Debug\Market.csproj.CopyComplete
+D:\Market\Market\obj\Debug\Market.exe
+D:\Market\Market\obj\Debug\Market.pdb
+D:\Market\Market\obj\Debug\Market.Windows.ProductBalance.resources
+\\Alex-PC\Android\Market\Market\bin\Debug\Market.exe.config
+\\Alex-PC\Android\Market\Market\bin\Debug\Market.exe
+\\Alex-PC\Android\Market\Market\bin\Debug\Market.pdb
+\\Alex-PC\Android\Market\Market\bin\Debug\EntityFramework.dll
+\\Alex-PC\Android\Market\Market\bin\Debug\EntityFramework.SqlServer.dll
+\\Alex-PC\Android\Market\Market\bin\Debug\EntityFramework.xml
+\\Alex-PC\Android\Market\Market\bin\Debug\EntityFramework.SqlServer.xml
+\\Alex-PC\Android\Market\Market\obj\Debug\Market.AddGroups.resources
+\\Alex-PC\Android\Market\Market\obj\Debug\Market.AddProduct.resources
+\\Alex-PC\Android\Market\Market\obj\Debug\Market.GroupList.resources
+\\Alex-PC\Android\Market\Market\obj\Debug\Market.MainMenu.resources
+\\Alex-PC\Android\Market\Market\obj\Debug\Market.Windows.ProductBalance.resources
+\\Alex-PC\Android\Market\Market\obj\Debug\Market.ProductsList.resources
+\\Alex-PC\Android\Market\Market\obj\Debug\Market.Properties.Resources.resources
+\\Alex-PC\Android\Market\Market\obj\Debug\Market.PurchaseWindow.resources
+\\Alex-PC\Android\Market\Market\obj\Debug\Market.SaleWindow.resources
+\\Alex-PC\Android\Market\Market\obj\Debug\Market.SoldProductsList.resources
+\\Alex-PC\Android\Market\Market\obj\Debug\Market.csproj.GenerateResource.cache
+\\Alex-PC\Android\Market\Market\obj\Debug\Market.csproj.CoreCompileInputs.cache
+\\Alex-PC\Android\Market\Market\obj\Debug\Market.csproj.CopyComplete
+\\Alex-PC\Android\Market\Market\obj\Debug\Market.exe
+\\Alex-PC\Android\Market\Market\obj\Debug\Market.pdb
+\\Alex-PC\Android\Market\Market\obj\Debug\Market.csprojAssemblyReference.cache
+\\Alex-PC\Android\Market\Market\obj\Debug\Market.csproj.ResolveComReference.cache
+D:\Android\Market\Market\bin\Debug\Market.exe.config
+D:\Android\Market\Market\bin\Debug\Market.exe
+D:\Android\Market\Market\bin\Debug\Market.pdb
+D:\Android\Market\Market\bin\Debug\EntityFramework.dll
+D:\Android\Market\Market\bin\Debug\EntityFramework.SqlServer.dll
+D:\Android\Market\Market\bin\Debug\EntityFramework.xml
+D:\Android\Market\Market\bin\Debug\EntityFramework.SqlServer.xml
+D:\Android\Market\Market\obj\Debug\Market.csprojAssemblyReference.cache
+D:\Android\Market\Market\obj\Debug\Market.csproj.ResolveComReference.cache
+D:\Android\Market\Market\obj\Debug\Market.AddGroups.resources
+D:\Android\Market\Market\obj\Debug\Market.AddProduct.resources
+D:\Android\Market\Market\obj\Debug\Market.GroupList.resources
+D:\Android\Market\Market\obj\Debug\Market.MainMenu.resources
+D:\Android\Market\Market\obj\Debug\Market.Windows.ProductBalance.resources
+D:\Android\Market\Market\obj\Debug\Market.ProductsList.resources
+D:\Android\Market\Market\obj\Debug\Market.Properties.Resources.resources
+D:\Android\Market\Market\obj\Debug\Market.PurchaseWindow.resources
+D:\Android\Market\Market\obj\Debug\Market.SaleWindow.resources
+D:\Android\Market\Market\obj\Debug\Market.SoldProductsList.resources
+D:\Android\Market\Market\obj\Debug\Market.csproj.GenerateResource.cache
+D:\Android\Market\Market\obj\Debug\Market.csproj.CoreCompileInputs.cache
+D:\Android\Market\Market\obj\Debug\Market.csproj.CopyComplete
+D:\Android\Market\Market\obj\Debug\Market.exe
+D:\Android\Market\Market\obj\Debug\Market.pdb
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\bin\Debug\Market.exe.config
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\bin\Debug\Market.exe
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\bin\Debug\Market.pdb
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\bin\Debug\EntityFramework.dll
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\bin\Debug\Microsoft.SqlServer.ConnectionInfoExtended.dll
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\bin\Debug\Microsoft.SqlServer.Smo.dll
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\bin\Debug\Microsoft.SqlServer.SmoExtended.dll
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\bin\Debug\Microsoft.SqlServer.Dmf.dll
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\bin\Debug\EntityFramework.xml
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\obj\Debug\Market.csproj.ResolveComReference.cache
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\obj\Debug\Market.GroupList.resources
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\obj\Debug\Market.MainMenu.resources
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\obj\Debug\Market.Windows.OptionsWindow.resources
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\obj\Debug\Market.Windows.ProductBalance.resources
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\obj\Debug\Market.ProductsList.resources
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\obj\Debug\Market.Properties.Resources.resources
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\obj\Debug\Market.PurchaseWindow.resources
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\obj\Debug\Market.SaleWindow.resources
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\obj\Debug\Market.SoldProductsList.resources
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\obj\Debug\Market.csproj.GenerateResource.cache
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\obj\Debug\Market.csproj.CoreCompileInputs.cache
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\obj\Debug\Market.csproj.CopyComplete
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\obj\Debug\Market.exe
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\obj\Debug\Market.pdb
+D:\Market\Market\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+D:\Market\Market\bin\Debug\Microsoft.SqlServer.ConnectionInfoExtended.dll
+D:\Market\Market\bin\Debug\Microsoft.SqlServer.Smo.dll
+D:\Market\Market\bin\Debug\Microsoft.SqlServer.SmoExtended.dll
+D:\Market\Market\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+D:\Market\Market\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+D:\Market\Market\bin\Debug\Microsoft.SqlServer.Dmf.dll
+D:\Market\Market\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+D:\Market\Market\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll
+D:\Market\Market\obj\Debug\Market.csproj.ResolveComReference.cache
+D:\Market\Market\obj\Debug\Market.Windows.OptionsWindow.resources
+D:\Market\Market\obj\Debug\Market.Windows.EditProduct.resources
+D:\Market\Market\obj\Debug\Market.Windows.EditGroup.resources
+C:\Users\Alex\Desktop\Market\Market\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+C:\Users\Alex\Desktop\Market\Market\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+C:\Users\Alex\Desktop\Market\Market\bin\Debug\Microsoft.SqlServer.Dmf.dll
+C:\Users\Alex\Desktop\Market\Market\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+C:\Users\Alex\Desktop\Market\Market\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll
+C:\Users\Alex\Desktop\Market\Market\obj\Debug\Market.csproj.ResolveComReference.cache
+C:\Users\Alex\Desktop\Market\Market\obj\Debug\Market.Windows.OptionsWindow.resources
+C:\Users\Alex\Desktop\Market\Market\obj\Debug\Market.Windows.ProductBalance.resources
+C:\Users\skdno\Desktop\Market\Market\bin\Debug\Market.exe.config
+C:\Users\skdno\Desktop\Market\Market\bin\Debug\Market.exe
+C:\Users\skdno\Desktop\Market\Market\bin\Debug\Market.pdb
+C:\Users\skdno\Desktop\Market\Market\bin\Debug\EntityFramework.dll
+C:\Users\skdno\Desktop\Market\Market\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\skdno\Desktop\Market\Market\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+C:\Users\skdno\Desktop\Market\Market\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+C:\Users\skdno\Desktop\Market\Market\bin\Debug\Microsoft.SqlServer.Dmf.dll
+C:\Users\skdno\Desktop\Market\Market\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+C:\Users\skdno\Desktop\Market\Market\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll
+C:\Users\skdno\Desktop\Market\Market\bin\Debug\EntityFramework.xml
+C:\Users\skdno\Desktop\Market\Market\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\skdno\Desktop\Market\Market\obj\Debug\Market.csprojAssemblyReference.cache
+C:\Users\skdno\Desktop\Market\Market\obj\Debug\Market.csproj.ResolveComReference.cache
+C:\Users\skdno\Desktop\Market\Market\obj\Debug\Market.AddGroups.resources
+C:\Users\skdno\Desktop\Market\Market\obj\Debug\Market.AddProduct.resources
+C:\Users\skdno\Desktop\Market\Market\obj\Debug\Market.Windows.EditGroup.resources
+C:\Users\skdno\Desktop\Market\Market\obj\Debug\Market.Windows.EditProduct.resources
+C:\Users\skdno\Desktop\Market\Market\obj\Debug\Market.GroupList.resources
+C:\Users\skdno\Desktop\Market\Market\obj\Debug\Market.MainMenu.resources
+C:\Users\skdno\Desktop\Market\Market\obj\Debug\Market.Windows.OptionsWindow.resources
+C:\Users\skdno\Desktop\Market\Market\obj\Debug\Market.Windows.ProductBalance.resources
+C:\Users\skdno\Desktop\Market\Market\obj\Debug\Market.ProductsList.resources
+C:\Users\skdno\Desktop\Market\Market\obj\Debug\Market.Properties.Resources.resources
+C:\Users\skdno\Desktop\Market\Market\obj\Debug\Market.PurchaseWindow.resources
+C:\Users\skdno\Desktop\Market\Market\obj\Debug\Market.SaleWindow.resources
+C:\Users\skdno\Desktop\Market\Market\obj\Debug\Market.SoldProductsList.resources
+C:\Users\skdno\Desktop\Market\Market\obj\Debug\Market.csproj.GenerateResource.cache
+C:\Users\skdno\Desktop\Market\Market\obj\Debug\Market.csproj.CopyComplete
+C:\Users\skdno\Desktop\Market\Market\obj\Debug\Market.exe
+C:\Users\skdno\Desktop\Market\Market\obj\Debug\Market.pdb
+C:\Users\skdno\Desktop\Market\Market\obj\Debug\Market.Windows.StartWindow.resources
+C:\Users\skdno\Desktop\Market\Market\obj\Debug\Market.Windows.CreateNewDB.resources
+C:\Users\skdno\Desktop\Market\Market\obj\Debug\Market.Windows.ServerPath.resources
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\obj\Debug\Market.csprojAssemblyReference.cache
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\obj\Debug\Market.Windows.AddOrEditGroup.resources
+C:\Users\aleksandr.ARMSOFT\Desktop\Market\Market\obj\Debug\Market.Windows.AddOrEditProduct.resources
+C:\Users\Alex\Desktop\Market\Market\obj\Debug\Market.Windows.AddOrEditGroup.resources
+C:\Users\Alex\Desktop\Market\Market\obj\Debug\Market.Windows.AddOrEditProduct.resources

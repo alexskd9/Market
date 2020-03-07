@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MarketModelStoreContainer" CdmEntityContainer="MarketEntities">
+    <EntitySetMapping Name="Groups">
+      <EntityTypeMapping TypeName="MarketModel.Group">
+        <MappingFragment StoreEntitySet="Groups">
+          <ScalarProperty Name="gid" ColumnName="gid" />
+          <ScalarProperty Name="gname" ColumnName="gname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MUnits">
+      <EntityTypeMapping TypeName="MarketModel.MUnit">
+        <MappingFragment StoreEntitySet="MUnits">
+          <ScalarProperty Name="mucode" ColumnName="mucode" />
+          <ScalarProperty Name="muname" ColumnName="muname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="MarketModel.Product">
+        <MappingFragment StoreEntitySet="Products">
+          <ScalarProperty Name="mid" ColumnName="mid" />
+          <ScalarProperty Name="mname" ColumnName="mname" />
+          <ScalarProperty Name="mgroup" ColumnName="mgroup" />
+          <ScalarProperty Name="munit" ColumnName="munit" />
+          <ScalarProperty Name="mprice" ColumnName="mprice" />
+          <ScalarProperty Name="mbarcode" ColumnName="mbarcode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Purchases">
+      <EntityTypeMapping TypeName="MarketModel.Purchase">
+        <MappingFragment StoreEntitySet="Purchases">
+          <ScalarProperty Name="pid" ColumnName="pid" />
+          <ScalarProperty Name="pdate" ColumnName="pdate" />
+          <ScalarProperty Name="pdocnum" ColumnName="pdocnum" />
+          <ScalarProperty Name="mcode" ColumnName="mcode" />
+          <ScalarProperty Name="mqty" ColumnName="mqty" />
+          <ScalarProperty Name="mpprice" ColumnName="mpprice" />
+          <ScalarProperty Name="mpsum" ColumnName="mpsum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sales">
+      <EntityTypeMapping TypeName="MarketModel.Sale">
+        <MappingFragment StoreEntitySet="Sales">
+          <ScalarProperty Name="sid" ColumnName="sid" />
+          <ScalarProperty Name="sdate" ColumnName="sdate" />
+          <ScalarProperty Name="sdocnum" ColumnName="sdocnum" />
+          <ScalarProperty Name="mcode" ColumnName="mcode" />
+          <ScalarProperty Name="mqty" ColumnName="mqty" />
+          <ScalarProperty Name="mprice" ColumnName="mprice" />
+          <ScalarProperty Name="ssum" ColumnName="ssum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
